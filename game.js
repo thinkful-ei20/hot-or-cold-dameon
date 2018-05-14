@@ -9,8 +9,8 @@ import GuessList from './guessList';
 
 export default function Game(){
   return (
-    <section className="gameBox">
-      <h2>Make your guess</h2>
+    <section className="game">
+      <h2 id='feedback'>Make your guess</h2>
       <GuessForm />
       <GuessCount />
       <GuessList />
